@@ -9,7 +9,7 @@ def news_tech():
 
       query_params = {"source": "the-verge",
             "sortBy": "top",
-            "apiKey": "a29e675e6c294a819cb649dcb76a76a0"
+            "apiKey": "INSERT UR API KEY" #goto newsapi website for more info
       }
       main_url = " https://newsapi.org/v1/articles"
       
@@ -36,7 +36,7 @@ def news_bbc():
 
       query_params = {"source": "bbc-news",
             "sortBy": "top",
-            "apiKey": "a29e675e6c294a819cb649dcb76a76a0"
+            "apiKey": "INSERT UR API KEY"
       }
       main_url = " https://newsapi.org/v1/articles"
       
@@ -64,7 +64,7 @@ def news_ign():
 
       query_params = {"source": "ign",
             "sortBy": "top",
-            "apiKey": "a29e675e6c294a819cb649dcb76a76a0"
+            "apiKey": "INSERT UR API KEY"
       }
       main_url = " https://newsapi.org/v1/articles"
       
@@ -98,8 +98,6 @@ async def on_ready():
   await client.change_presence(status=discord.Status.idle, activity=activity)
 
 
-# color=[0x0000FF,0x00692D,0xA7C760,0xED6983,0xE37CF1,0xC85B28,0x329D3C]
-
 key1=r'\news-tech'
 key2=r'\news-bbc'
 key3=r'\news-ign'
@@ -123,4 +121,4 @@ async def on_message(message):
 
 
 
-client.run('ODMxNTIwMDUwNzQ5NzY3NzMw.YHWbZA._TBq0KXZQt1x3cAzhesZ58VnsFA')
+client.run(ADD YOUR DISCORD BOT TOKEN HERE) #goto discord dev applications to initialize a bot
