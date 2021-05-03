@@ -1,8 +1,9 @@
 # news-bot
 
-discord bot project
+discord bot using python
 
-py lib reqs:
+py libraies requirements:
+
 -discord
 -newsapi
 -random
